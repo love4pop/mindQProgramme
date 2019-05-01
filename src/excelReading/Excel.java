@@ -16,6 +16,7 @@ public class Excel {
 	public static void main(String[] args) throws IOException {
 		
 		XSSFWorkbook exfile = new XSSFWorkbook("D:\\ Ambi\\AmbiExcel.xlsx");
+		//ambii     
 		XSSFSheet sheet = exfile.getSheet("data");
 		int rowcount = sheet.getPhysicalNumberOfRows();
 		for (int i = 1; i < rowcount; i++) {
